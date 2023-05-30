@@ -1,3 +1,8 @@
+from vehicle import Vehicle
+from car import Car
+from motorbike import Motorbike
+
+# Create instances and test the classes here
 class Car(Vehicle):
     def __init__(self, speed, passenger_capacity, fuel_capacity, characteristic1, characteristic2, seating_capacity):
         super().__init__(speed, passenger_capacity, fuel_capacity, characteristic1, characteristic2)
