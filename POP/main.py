@@ -1,6 +1,5 @@
 from vehicle import Vehicle
-from car import Car
-from POP.car_and_motorbike import Motorbike
+from car_and_motorbike import Car,Motorbike
 
 # Create instances and test the classes here
 
