@@ -11,11 +11,3 @@ class Vehicle:
 
     def brake(self):
         print("The vehicle is braking.")
-
-
-# Create an instance of the Vehicle class
-vehicle = Vehicle(100, 4, 50, "Characteristic1Value", "Characteristic2Value")
-
-# Test the methods of the Vehicle class
-vehicle.accelerate()
-vehicle.brake()
